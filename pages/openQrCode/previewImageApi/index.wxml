@@ -1,0 +1,3 @@
+<!--pages/openQrCode/previewImageApi/index.wxml-->
+<view>使用previewImageApi，不能识别公众二维码</view>
+<button type="primary" bindtap="open">打开二维码</button>

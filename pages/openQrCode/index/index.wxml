@@ -1,0 +1,6 @@
+<!--pages/openQrCode/index/index.wxml-->
+<view>
+  <navigator style="margin: 50rpx 0;" url="/pages/openQrCode/imageTag/index" hover-class="navigator-hover"><button type="primary" bindtap="open">使用imageTag</button></navigator>
+  <navigator style="margin: 50rpx 0;" url="/pages/openQrCode/webViewTag/index" hover-class="navigator-hover"><button type="primary" bindtap="open">webViewTag</button></navigator>
+  <navigator style="margin: 50rpx 0;" url="/pages/openQrCode/previewImageApi/index" hover-class="navigator-hover"><button type="primary" bindtap="open">previewImageApi</button></navigator>
+</view>

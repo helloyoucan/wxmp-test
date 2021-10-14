@@ -1,0 +1,15 @@
+<!--pages/openQrCode/imageTag/index.wxml-->
+<view class="container" style="background-color: #eee;">
+    <view>
+        image标签的方式
+    </view>
+    <view>
+        公众号二维码不能识别
+    </view>
+    <image class="img" show-menu-by-longpress="true" mode="widthFix" src="../../../images/personal-qrcode.jpg"></image>
+    <view style="height: 10rpx;width:750rpx;background-color: #000;margin: 50px 0;"></view>
+    <image class="img" show-menu-by-longpress="true" mode="widthFix" src="../../../images/qiye-qrcode.png"></image>
+    <view style="height: 10rpx;width:750rpx;background-color: #000;margin: 50px 0;"></view>
+    <image class="img" show-menu-by-longpress="true" mode="widthFix" src="../../../images/gz-qrcode.jpg"></image>
+    <view style="height: 10rpx;width:750rpx;background-color: #000;margin: 50px 0;"></view>
+</view>

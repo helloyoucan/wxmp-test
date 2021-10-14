@@ -1,0 +1,42 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/openQrCode/imageTag/index",
+                    "pathName": "pages/openQrCode/imageTag/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/openQrCode/webViewTag/index",
+                    "pathName": "pages/openQrCode/webViewTag/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/openQrCode/previewImageApi/index",
+                    "pathName": "pages/openQrCode/previewImageApi/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/openQrCode/index/index",
+                    "pathName": "pages/openQrCode/index/index",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

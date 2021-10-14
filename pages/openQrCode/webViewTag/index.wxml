@@ -1,0 +1,8 @@
+<!--pages/openQrCode/webViewTag/index.wxml-->
+<view>
+    web-view打开公众号文章的方式，公众号必须跟小程序关联起来，web-view铺满小程序
+</view>
+<view>
+   三码均可识别
+</view>
+<web-view src="http://mp.weixin.qq.com/s?__biz=MzIxODIwMjk2MQ==&mid=2247483662&idx=1&sn=1fa3721a25ba83566df3a0e9ae81c7a0&chksm=97ef5730a098de26dee854f1ddfdb2e2163db72d32446d247acf8ed2cc227385d7609e983d1b#rd"></web-view>

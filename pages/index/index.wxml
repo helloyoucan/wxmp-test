@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>
+  <navigator style="margin: 50rpx 0;" url="/pages/openQrCode/index/index" hover-class="navigator-hover"><button type="primary" bindtap="open">识别小程序中的二维码名片</button></navigator>
+</view>
