@@ -9,7 +9,7 @@
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "测试功能小程序",
+        "navigationBarTitleText": "导流小程序",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",
