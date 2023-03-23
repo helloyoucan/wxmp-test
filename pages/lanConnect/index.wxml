@@ -1,0 +1,45 @@
+<!--pages/lanConnect/index.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">IP</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{ip}}" bindinput="bindIpInput" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">端口</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{port}}" bindinput="bindPortInput" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">路径</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{path}}" bindinput="bindPathInput" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <button type="primary" bindtap="connect">建立连接</button>
+    <button type="primary" bindtap="disconnect">断开连接</button>
+  </view>
+  <view class="page-section">
+    <view class="weui-cells__title">消息</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{msg}}" bindinput="bindMsgInput" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <button type="primary" bindtap="sendMsg">发消息</button>
+  </view>
+  <view class="log" >
+  <view wx:for="{{logArr}}" wx:key="index">{{item}}</view>
+  </view>
+</view>

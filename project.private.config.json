@@ -1,42 +1,51 @@
 {
-    "setting": {},
-    "condition": {
-        "plugin": {
-            "list": []
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/openQrCode/imageTag/index",
+          "pathName": "pages/openQrCode/imageTag/index",
+          "query": "",
+          "scene": null
         },
-        "game": {
-            "list": []
+        {
+          "name": "pages/openQrCode/webViewTag/index",
+          "pathName": "pages/openQrCode/webViewTag/index",
+          "query": "",
+          "scene": null
         },
-        "gamePlugin": {
-            "list": []
+        {
+          "name": "pages/openQrCode/previewImageApi/index",
+          "pathName": "pages/openQrCode/previewImageApi/index",
+          "query": "",
+          "scene": null
         },
-        "miniprogram": {
-            "list": [
-                {
-                    "name": "pages/openQrCode/imageTag/index",
-                    "pathName": "pages/openQrCode/imageTag/index",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "pages/openQrCode/webViewTag/index",
-                    "pathName": "pages/openQrCode/webViewTag/index",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "pages/openQrCode/previewImageApi/index",
-                    "pathName": "pages/openQrCode/previewImageApi/index",
-                    "query": "",
-                    "scene": null
-                },
-                {
-                    "name": "pages/openQrCode/index/index",
-                    "pathName": "pages/openQrCode/index/index",
-                    "query": "",
-                    "scene": null
-                }
-            ]
+        {
+          "name": "pages/openQrCode/index/index",
+          "pathName": "pages/openQrCode/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/lanConnect/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/bluetooth/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
+      ]
     }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "wxmp-test"
 }

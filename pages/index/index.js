@@ -10,5 +10,9 @@ Page({
     // this.setData({
     //   testParams: options.testParams,
     // })
+    wx.login({
+      success (res) {
+        console.log(res)
+      }})
   }
 })
